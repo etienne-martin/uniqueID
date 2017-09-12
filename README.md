@@ -15,11 +15,11 @@ $id = $uniqueID->generate();
 echo $id; // 2398161031202658563
 
 // Shorten an ID
-$shortId = $uniqueID->shorten("2398161031202658563");
+$shortId = $uniqueID->shorten($id);
 echo $shortId; // f63GFpTjuJQ
 
 // Expand an ID
-$id = $uniqueID->expand("f63GFpTjuJQ");
+$id = $uniqueID->expand($shortId);
 echo $id; // 2398161031202658563
 ```
 
