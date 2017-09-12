@@ -1,6 +1,6 @@
 <?php
 
-class uniqueId {
+class uniqueID {
     
     const ALPHABET = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-_';
     const BASE = 64;
