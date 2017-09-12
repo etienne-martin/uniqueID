@@ -26,7 +26,7 @@ echo $id; // 2398161031202658563
 ### Options
 
 ```php
-// Generate an ID within a specified range
+// Generate an ID within a specific range
 $id = $uniqueID->generate(0, 1000000);
 echo $id; // 807657
 
